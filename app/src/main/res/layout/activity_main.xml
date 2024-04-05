@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CA5EC"
+    android:background="@drawable/content_as17_134_20382_thumb"
     android:foregroundTint="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -13,25 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="31dp" />
 
-    <ImageView
-        android:id="@+id/imgHistory"
-        android:layout_width="match_parent"
-        android:layout_height="152dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@tools:sample/avatars"
-        tools:srcCompat="@drawable/content_as17_134_20382_thumb" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="16dp" />
-
     <TextView
         android:id="@+id/txtTextGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Historical Figures and Their Ages"
-        android:textColor="#000000"
+        android:text="Historical Figures and Your Date of Birth"
+        android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
     <Space
@@ -40,11 +28,11 @@
 
     <TextView
         android:id="@+id/txtAge"
-        android:layout_width="140dp"
+        android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_gravity="center_horizontal"
-        android:text="Enter an age"
-        android:textColor="#000000"
+        android:text="Enter Your Date of Birth"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <Space
@@ -58,7 +46,8 @@
         android:layout_gravity="center_horizontal"
         android:ems="10"
         android:inputType="number"
-        android:text="Age: " />
+        android:text="DOB:"
+        android:textColor="#FFFFFF" />
 
     <Space
         android:layout_width="match_parent"
@@ -74,21 +63,20 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="34dp" />
+        android:layout_height="73dp" />
 
     <TextView
         android:id="@+id/txtData"
         android:layout_width="370dp"
-        android:layout_height="137dp"
+        android:layout_height="235dp"
         android:layout_gravity="center_horizontal"
-        android:background="#E6C563"
-        android:text="Generated data will appear here..."
+        android:background="#673AB7"
         android:textColor="#000000"
         android:textSize="20sp" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="34dp" />
 
     <Button
         android:id="@+id/btnClear"
